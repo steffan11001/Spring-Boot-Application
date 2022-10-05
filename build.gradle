@@ -1,0 +1,35 @@
+plugins {
+	id 'org.springframework.boot' version '2.7.0'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'java'
+	id 'jvm-test-suite'
+}
+
+group = 'com.example'
+version = '0.0.1'
+sourceCompatibility = '18'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation "com.github.tomakehurst:wiremock-jre8:2.33.2"
+	annotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
+}
+
+jar {
+	archiveBaseName = 'microservices-docker'
+	archiveVersion =  '0.1.0'
+	manifest {
+		attributes(
+				'Main-Class': 'com.example.microservices.MicroservicesApplication'
+		)
+	}
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}

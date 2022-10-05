@@ -1,0 +1,21 @@
+{
+    "id" : "f6d0373c-d4bf-4a60-8c95-dc0b7b4dcdfc",
+    "name" : "sunrise_sunset_api",
+    "request" : {
+        "url" : "/sunrise_sunset/api",
+        "method" : "GET"
+    },
+    "response" : {
+        "status" : 200,
+        "body" : "{\"results\":{\"sunrise\":\"3:20:52 AM\",\"sunset\":\"5:26:25 PM\",\"solar_noon\":\"10:23:39 AM\",\"day_length\":\"14:05:33\",\"civil_twilight_begin\":\"2:49:38 AM\",\"civil_twilight_end\":\"5:57:40 PM\",\"nautical_twilight_begin\":\"2:09:01 AM\",\"nautical_twilight_end\":\"6:38:16 PM\",\"astronomical_twilight_begin\":\"1:23:57 AM\",\"astronomical_twilight_end\":\"7:23:21 PM\"},\"status\":\"OK\"}",
+        "headers" : {
+            "Server" : "nginx",
+            "Date" : "Fri, 19 Aug 2022 13:06:00 GMT",
+            "Content-Type" : "application/json",
+            "Vary" : "Accept-Encoding",
+            "Access-Control-Allow-Origin" : "*"
+        }
+    },
+    "uuid" : "f6d0373c-d4bf-4a60-8c95-dc0b7b4dcdfc",
+    "persistent" : true
+}
