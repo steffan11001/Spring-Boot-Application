@@ -10,7 +10,7 @@ A spring boot application which calculate the screen temperature         return 
 
 * dev;
 * prod;
-* local.
+* local. __
 To set profil use *--env-file* argument and **.env** files 
 ```sh
 docker compose --env-file .\.env.dev up
