@@ -9,7 +9,7 @@ latitude and longitude and return an object with temperature value.
 Application has multiple profiles:
 * dev
 * prod
-* local<br />
+* local\
 To set a profil use *--env-file* argument and **.env** files like forward command. 
 ```sh
 docker compose --env-file .\.env.dev up
