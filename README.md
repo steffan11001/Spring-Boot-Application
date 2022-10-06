@@ -1,5 +1,11 @@
 # Spring-Boot-Application
 
+## Technologies used:
+
+* Java 18
+* Wiremock standalone 2.32.2
+* Docker 20.10.17
+
 ## Description
 
 The spring boot application has a microservice called nightTimeTemperature which call an external API. The microservice calculate the screen temperature based on 
